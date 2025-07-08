@@ -42,7 +42,7 @@ class ModelHandler:
     def load_models(self):
         """Load the Flux Kontext pipeline from local cache."""
         self.pipe = FluxKontextPipeline.from_pretrained(
-            "black-forest-labs/FLUX.1-Kontext-dev", local_files_only=True
+            "black-forest-labs/FLUX.1-Kontext-dev", torch_dtype=torch.bfloat16, local_files_only=True
         )
         self.pipe.move_to_device("cuda")
 
