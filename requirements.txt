@@ -1,0 +1,7 @@
+sentencepiece
+accelerate
+runpod==1.7.10
+protobuf
+transformers
+python-dotenv
+pillow
