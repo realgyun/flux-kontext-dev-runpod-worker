@@ -1,4 +1,5 @@
 sentencepiece
+diffusers
 accelerate
 runpod==1.7.10
 protobuf
