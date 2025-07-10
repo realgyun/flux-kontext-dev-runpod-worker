@@ -1,5 +1,5 @@
 sentencepiece
-diffusers
+git+https://github.com/huggingface/diffusers.git
 accelerate
 runpod==1.7.10
 protobuf
